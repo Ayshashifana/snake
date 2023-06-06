@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+:root{
+    --bgcolor :#F2D8D8;
+    --textColor: #5C8984;
+    --bg:#374259;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Prompt', sans-serif;
+    background-color:var(--bgcolor);
+    text-align: center;
+}
+
+h1{
+    color:var(--textColor) ;
+    margin: 20px 0px;
+}
+.play{
+    color: var(--bg);
+    text-decoration:underline;
+    cursor: pointer;
+}
+.play:hover{
+    color:rgb(147, 9, 53);
+}
+
+#gameBoard{
+    border: 2px solid black;
+   
+    margin: 30px 0px; 
+}
+#score{
+    font-size: 30px;
+    border: 1px dotted var(--textColor);
+    
+}
